@@ -72,6 +72,7 @@ target_link_libraries(${PROJECT_NAME}
     ${PULSE-SIMPLE}
     ${PORTAUDIO_LIBRARIES}
     ${VOLK_LIBRARIES}
+    boost_chrono
 )
 
 if(NOT Gnuradio_VERSION VERSION_LESS "3.8")
