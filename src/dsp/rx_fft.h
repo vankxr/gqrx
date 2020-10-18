@@ -32,7 +32,7 @@
 #include <chrono>
 
 
-#define MAX_FFT_SIZE 1048576
+#define MAX_FFT_SIZE 16777216
 
 class rx_fft_c;
 class rx_fft_f;
